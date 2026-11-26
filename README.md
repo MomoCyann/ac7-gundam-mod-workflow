@@ -1,13 +1,14 @@
-# AC7 高达机体替换 · 柯西 1.0 制作记录与 Agent Skill
+# AC7 高达机体替换 · 柯西制作记录与 Agent Skill
 
 这份记录来自把《装甲核心 VI》的柯西高达外观移植到《皇牌空战 7》X-02S 的实际项目。它覆盖 Blender 分件装配、骨骼重绑、UE 4.18 Cook、速度变形、SP1 武器切换、灯光、武器蓝图和实机排错。仓库提供文档和可安装的 Skill。跟做时请准备自己有权使用的素材和本地游戏环境。
 
 | 从哪里开始 | 有什么内容 |
 | --- | --- |
 | [工具和准备](skills/ac7-gundam-mod/references/setup.md) | 解包工具、Blender 插件、UE 版本、验证工具，以及第一次做时应先验证什么 |
-| [制作与排错](skills/ac7-gundam-mod/references/workflow.md) | 从静态替换到实机验收，含机体隐身、撕裂、姿态跳变、灯不亮、机库闪退的排查顺序 |
-| [柯西 1.0 项目记录](skills/ac7-gundam-mod/references/xi-case-study.md) | 两轮开发实际做了什么，AC6 柯西和 AC7 强袭自由各用了什么，项目发起者亲手做了什么 |
+| [制作与排错](skills/ac7-gundam-mod/references/workflow.md) | 从静态替换到实机验收，含低速转弯后准星偏移、枪口对齐和多包合并 |
+| [柯西项目记录](skills/ac7-gundam-mod/references/xi-case-study.md) | 1.0 到 1.1 的制作步骤、AC6 柯西与 AC7 强袭自由的实际复用，以及项目发起者亲手做的工作 |
 | [Agent Skill](skills/ac7-gundam-mod/SKILL.md) | 可迁移到另一个替换项目，带本地输入检查、参考资料和验证步骤 |
+| [1.1 更新说明](CHANGELOG.md) | 姿态、准星、材质、弹量及单包安装说明 |
 
 ## 给 Agent 安装
 

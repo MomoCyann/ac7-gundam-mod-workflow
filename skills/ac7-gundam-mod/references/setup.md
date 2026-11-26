@@ -1,6 +1,6 @@
 # 工具和准备
 
-柯西 1.0 至 1.1 在 Windows 上用 Blender 5.3.0 编辑，用 Unreal Engine 4.18 Cook 和打包。在别的环境复做时，先确认工具能读当前素材和目标游戏的版本。
+柯西项目在 Windows 上用 Blender 5.3.0 编辑，用 Unreal Engine 4.18 Cook 和打包。在别的环境复做时，先确认工具能读当前素材和目标游戏的版本。
 
 | 环节 | 准备的软件 | 第一个验证 |
 | --- | --- | --- |
@@ -10,6 +10,7 @@
 | 资产比对 | Gildor 的 UE Viewer（UModel），项目使用 `-game=ue4.18` 回读打包资产。UAssetGUI/UAssetAPI 可辅助检查蓝图、导入表和属性。[UModel](https://www.gildor.org/en/projects/umodel) · [UAssetGUI](https://github.com/atenfyr/UAssetGUI) | 从已运行的参考包导出目标骨架和动画，确认网格、动作与相关 `.uasset`、`.uexp`、`.ubulk` 可以对应。 |
 | 脚本和验证 | Python、NumPy。柯西 1.1 的姿态差值插值使用 SciPy，检查图集像素可用 Pillow。涉及 `bpy` 的脚本用 Blender 自带 Python 运行。[Python](https://www.python.org/downloads/) · [NumPy](https://numpy.org/install/) · [SciPy](https://scipy.org/install/) · [Pillow](https://pillow.readthedocs.io/en/stable/installation/basic-installation.html) | 先检查脚本解释器和依赖，再把工具、输入、临时输出和成品目录分别配置。 |
 | 实机 | PC 版 AC7、可测试的目标机体与单人任务。柯西使用 X-02S，实测环境额外加载了 kosnag 的骨骼上限扩展。[骨骼上限扩展](https://www.nexusmods.com/acecombat7skiesunknown/mods/2392) | 原游戏与已有参考各跑一次机库和任务，记录加载的 PAK。 |
+| 同一任务携带多种特武（可选） | 使用 AC7 专用 UE4SS 和 AC7 MultiSP。柯西实测组合使用 MultiSP 2.27.0 与 Antigravity 制作的 `XiMultiSPCompat`。[兼容插件安装与验证](multisp-compat.md) | 确认单人任务加载了插件，用 ADMM 和 EML 验证直接互切，记录游戏与 MultiSP 版本。 |
 
 ## 给 Agent 的输入
 

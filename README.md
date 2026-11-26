@@ -5,10 +5,11 @@
 | 从哪里开始 | 有什么内容 |
 | --- | --- |
 | [工具和准备](skills/ac7-gundam-mod/references/setup.md) | 解包工具、Blender 插件、UE 版本、验证工具，以及第一次做时应先验证什么 |
-| [制作与排错](skills/ac7-gundam-mod/references/workflow.md) | 从静态替换到实机验收，含低速转弯后准星偏移、枪口对齐和多包合并 |
-| [柯西项目记录](skills/ac7-gundam-mod/references/xi-case-study.md) | 1.0 到 1.1 的制作步骤、AC6 柯西与 AC7 强袭自由的实际复用，以及项目发起者亲手做的工作 |
+| [制作与排错](skills/ac7-gundam-mod/references/workflow.md) | 从静态替换到实机验收，含低速转弯后准星偏移、持枪时的准星抖动、枪口对齐和多包合并 |
+| [柯西项目记录](skills/ac7-gundam-mod/references/xi-case-study.md) | 1.0 至 1.3 的制作步骤、AC6 柯西与 AC7 强袭自由的实际复用，以及项目发起者亲手做的工作 |
 | [Agent Skill](skills/ac7-gundam-mod/SKILL.md) | 可迁移到另一个替换项目，带本地输入检查、参考资料和验证步骤 |
-| [1.1 更新说明](CHANGELOG.md) | 姿态、准星、材质、弹量及单包安装说明 |
+| [版本更新](CHANGELOG.md) | 1.3 稳定直射准星、将 EML 接到步枪，并记录弹量与兼容性 |
+| [MultiSP 兼容插件](skills/ac7-gundam-mod/references/multisp-compat.md) | Antigravity 制作的独立 UE4SS 插件，处理 ADMM 和 EML 直接切换时的姿态残留 |
 
 ## 给 Agent 安装
 
